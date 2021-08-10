@@ -1,0 +1,253 @@
+body{
+    font-family: 'Roboto', sans-serif;
+       
+}
+.nav-bg{
+    background-color: #202731;
+   
+}
+.p1{
+    padding-top: 20px;;
+}
+.spn{
+    font-weight: bolder;
+}
+.about-container{
+ background-color: #202731;
+ color: white;
+ font-family: 'Roboto', sans-serif;
+}
+.latter-1{
+    letter-spacing: 5px;
+}
+.container-pad{
+    padding-left: 50px;
+}
+.img-front{
+    height: 400px;
+    width: 400px;
+}
+.btn-pos{
+    margin: 0 auto;
+    display: table;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+    
+}
+.latter-2{
+    letter-spacing: 2px;
+}
+.service-container{
+    background-color: #000000;
+    color: white;
+    
+    
+}
+.hr-1{
+    background-color: #FF4500;
+    width: 20px;
+}
+.latter-service{
+color: #FF4500;
+}
+
+.serviceBox{
+    border: 2px solid hsl(0, 0%, 27%);
+    color: hsl(0, 0%, 27%);
+    padding: 37px 18px;
+    text-align:center;
+}
+.serviceBox .service-icon i{
+    position: relative;
+    bottom: 0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 46px;
+    transition: all 0.2s ease 0s;
+    
+}
+.serviceBox:hover i{
+    bottom:5px;
+}
+.serviceBox .service-content h3{
+    font-size:16px;
+    text-transform: capitalize;
+    font-weight:600 hsl(0, 0%, 60%);
+}
+.serviceBox .service-content p{
+    color: #ffffff;
+}
+.serviceBox .service-content .line{
+    background: #FFFFFF;
+    height: 2px;
+    margin: 22px auto;
+    opacity: 0.2;
+    width: 40px;
+}
+@media screen and (max-width: 990px){
+    .serviceBox{
+        margin-bottom: 20px;
+    }
+}
+.project-container{
+    background-color: #000000;
+    color: white; 
+}
+
+.innner-container {
+    background-color:#111111;
+ 
+}
+.gallery-size{
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+}
+.black-text{
+    color: white;
+}
+
+
+.testimonial-section{ 
+    background: #000000; 
+    color: white; 
+    
+    
+}
+#testimonial-slider{
+    padding: 50px 20px 35px 20px;
+    background: #111111;
+    text-align: center;
+    
+    
+}
+.testimonial .description{
+    font-size: 14px;
+    color: white;
+    line-height: 26px;
+    text-indent: 30px;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: -15px;
+}
+.testimonial .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    margin: 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: white;
+}
+.owl-buttons{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+}
+.owl-prev,
+.owl-next{
+    position: absolute;
+    left: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+.owl-next{
+    left: auto;
+    right: 0;
+}
+.owl-buttons .owl-prev:before,
+.owl-buttons .owl-next:before{
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 60px;
+    font-weight: 900;
+    color: #cacaca;
+    line-height: 20px;
+    opacity: 0.8;
+}
+.owl-buttons .owl-next:before{
+    content: "\f105";
+}
+.owl-buttons .owl-prev:hover:before,
+.owl-buttons .owl-next:hover:before{
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    background: transparent;
+}
+.owl-theme .owl-controls{
+    margin-top: 40px;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    background: url("../img/Testimonial\ Dummy\ \(1\).jpg") no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in-out 0s;
+}
+.owl-theme .owl-controls .owl-page:nth-child(2) span{
+    background: url("../img/Testimonial\ Dummy\ \(2\).jpg") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-controls .owl-page:nth-child(3) span{
+    background: url("../img/Testimonial\ Dummy\ \(3\).jpg") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    opacity: 0.5;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page.active:hover span{
+    border-color: #d133ff;
+    opacity: 1;
+}
+@media only screen and (max-width: 479px){
+    .owl-buttons{ bottom: 30%; }
+}
+
+.skills-container{
+    background-color: #000000; 
+    color: white;
+}
+.contact-container{
+    background-color:  #000000; 
+color: white;
+    
+}
+.form-inner{
+    background-color: #111111;
+    color: white;
+    
+}
+.letter-span{
+    font-size: 72px;
+}
+.letter-span2{
+    font-size: 25px;
+}
+.footer{
+   
+    color: white;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
